@@ -1,0 +1,12 @@
+name = "netbots"
+type = "webpack"
+
+account_id = "2778c076cda4e1cfcb100fa7a047358a"
+workers_dev = true
+route = ""
+zone_id = ""
+compatibility_date = "2021-12-04"
+
+[site]
+bucket = ".docs/public/" # Add pathPrefix here if necessary
+entry-point = ".docs/workers-site"
