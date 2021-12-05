@@ -8,7 +8,7 @@ on:
 jobs:
   deploy-robokinesis:
     runs-on: ubuntu-latest
-    name: Deploy
+    name: Deploy Robokinesis
     defaults:
       run:
         shell: bash
@@ -23,7 +23,7 @@ jobs:
           npm run ghactionsbootstrap --force
           npm run build
       
-      - name: Publish
+      - name: Publish Robokinesis
         uses: cloudflare/wrangler-action@1.3.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -34,7 +34,7 @@ jobs:
 
   deploy-modularbots:
     runs-on: ubuntu-latest
-    name: Deploy
+    name: Deploy Modularbots
     defaults:
       run:
         shell: bash
@@ -49,7 +49,7 @@ jobs:
           npm run ghactionsbootstrap --force
           npm run build
       
-      - name: Publish
+      - name: Publish Modularbots
         uses: cloudflare/wrangler-action@1.3.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
@@ -60,7 +60,7 @@ jobs:
 
   deploy-netbots:
     runs-on: ubuntu-latest
-    name: Deploy
+    name: Deploy Netbots
     defaults:
       run:
         shell: bash
@@ -75,7 +75,7 @@ jobs:
           npm run ghactionsbootstrap --force
           npm run build
       
-      - name: Publish
+      - name: Publish Netbots
         uses: cloudflare/wrangler-action@1.3.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
