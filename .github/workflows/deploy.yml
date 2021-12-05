@@ -1,4 +1,4 @@
-name: Deploy
+name: Deploy Projects
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
 jobs:
   deploy-robokinesis:
     runs-on: ubuntu-latest
-    name: Deploy Robokinesis
+    name: Robokinesis
     defaults:
       run:
         shell: bash
@@ -27,6 +27,7 @@ jobs:
         uses: cloudflare/wrangler-action@1.3.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
+          workingDirectory: "projects/robokinesis"
         env:
           USER: root
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
@@ -34,7 +35,7 @@ jobs:
 
   deploy-modularbots:
     runs-on: ubuntu-latest
-    name: Deploy Modularbots
+    name: Modularbots
     defaults:
       run:
         shell: bash
@@ -53,6 +54,7 @@ jobs:
         uses: cloudflare/wrangler-action@1.3.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
+          workingDirectory: "projects/modularbots"
         env:
           USER: root
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
@@ -60,7 +62,7 @@ jobs:
 
   deploy-netbots:
     runs-on: ubuntu-latest
-    name: Deploy Netbots
+    name: Netbots
     defaults:
       run:
         shell: bash
@@ -79,6 +81,7 @@ jobs:
         uses: cloudflare/wrangler-action@1.3.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
+          workingDirectory: "projects/netbots"
         env:
           USER: root
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
