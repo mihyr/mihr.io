@@ -3,7 +3,8 @@ title: Robokinesis BOM
 order: 4
 pcx-content-type: best-practices
 ---
-## Robokinesis Components
+
+# Robokinesis Components
 
 ## BOM
 
@@ -18,7 +19,7 @@ pcx-content-type: best-practices
 
 </TableWrap>
 
-### Hardware considerations
+## Hardware considerations
 
 - Pi Zero W was chosen considering its size (user can wear it), inbuilt WiFi/Bluetooth (to communicate directly to the robot, eliminating the need to have a computer in between wearable and robot), and can run ROS onboard (all computation would be done on the wearable).
 

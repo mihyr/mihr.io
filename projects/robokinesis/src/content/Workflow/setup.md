@@ -1,10 +1,10 @@
 ---
 title: Setup Instructions
-order: 2
-type: best-practices
+order: 3
+pcx-content-type: best-practices
 ---
 
-## Setup Instructions
+# Setup Instructions
 
 - Create a catkin workspace
 
@@ -50,10 +50,11 @@ type: best-practices
 
 <TableWrap>
 
-Title | Link
------------- | -------------
-rosbridge_suite | [Github](https://github.com/RobotWebTools/rosbridge_suite)
+| Title | Link |
+| ------------ | ------------- |
+| rosbridge_suite | [Github](https://github.com/RobotWebTools/rosbridge_suite)|
 
 </TableWrap>
+
 
 > Author: [Mihir Patel](https://github.com/mihyr)
