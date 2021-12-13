@@ -4,7 +4,7 @@ order: 5
 pcx-content-type: best-practices
 ---
 
-# Robokinesis CAD
+# CAD
 
 - The zip file contains contains solidworks 2019 version of the CAD model.
 

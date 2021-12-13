@@ -4,7 +4,7 @@ order: 4
 pcx-content-type: best-practices
 ---
 
-# Robokinesis Components
+# Components
 
 ## BOM
 

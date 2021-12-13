@@ -5,7 +5,7 @@ pcx-content-type: best-practices
 ---
 
 
-# Robokinesis Schematic
+# Schematic
 
 - The schematic `Robokinesis.SchDoc` was created in Altium Designer.
 
