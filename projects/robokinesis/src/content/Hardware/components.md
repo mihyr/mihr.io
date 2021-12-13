@@ -1,5 +1,5 @@
 ---
-title: Robokinesis BOM
+title: Components
 order: 4
 pcx-content-type: best-practices
 ---

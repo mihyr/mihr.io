@@ -4,7 +4,7 @@ module.exports = {
     productLogoPathD: "",
     productIconKey: "",
     contentRepo: "mihyr/robokinesis",
-    contentRepoFolder: "",
+    contentRepoFolder: "robokinesis",
     externalLinks: [
       {
         title: "Homepage",
@@ -16,10 +16,10 @@ module.exports = {
       },
     ],
     search: {
-      indexName: "mihir",
+      indexName: "pegasus_drone",
       apiKey: "f23af949ddb593a485da54c40dcfd03b",
       algoliaOptions: {
-        facetFilters:  ""
+        facetFilters:  '["project:Robokinesis"]'
     }
     },
     siteMetadata: {
