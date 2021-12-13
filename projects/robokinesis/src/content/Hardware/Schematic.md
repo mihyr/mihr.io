@@ -16,7 +16,7 @@ pcx-content-type: best-practices
 <Button type="secondary" href="https://github.com/mihyr/robokinesis/raw/main/schematic/Robokinesis.pdf">Download Robokinesis.pdf</Button>
 
 ---
-![schematic](https://raw.githubusercontent.com/mihyr/robokinesis/main/media/schematic.jpg)
+[![schematic](https://raw.githubusercontent.com/mihyr/robokinesis/main/media/schematic.jpg)](https://github.com/mihyr/robokinesis/raw/main/schematic/Robokinesis.pdf)
 
 
 > Author: [Mihir Patel](https://github.com/mihyr)
