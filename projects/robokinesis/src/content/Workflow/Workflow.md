@@ -1,7 +1,7 @@
 ---
 title: Workflow
 order: 0
-pcx-content-type: configuration
+pcx-content-type: best-practices
 ---
 ## Workflow
 

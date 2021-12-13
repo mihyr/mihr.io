@@ -1,9 +1,8 @@
 ---
 title: Setup Instructions
 order: 2
-type: overview
+type: best-practices
 ---
-<ContentColumn>
 
 ## Setup Instructions
 
