@@ -37,3 +37,5 @@ _Budget Hardware_
 - Current nodes are written in python, to achieve higher publishing frequency on such hardware, the nodes should be re-written in C++.
 
 </Aside>
+
+> Author: [Mihir Patel](https://github.com/mihyr)

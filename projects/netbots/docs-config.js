@@ -3,8 +3,8 @@ module.exports = {
     pathPrefix: "",
     productLogoPathD: "",
     productIconKey: "",
-    contentRepo: "mihyr/4G-Networked-Robots",
-    contentRepoFolder: "",
+    contentRepo: "mihyr/Networked-Robots",
+    contentRepoFolder: "netbots",
     externalLinks: [
       {
         title: "Homepage",

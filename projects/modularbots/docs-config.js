@@ -4,7 +4,7 @@ module.exports = {
     productLogoPathD: "",
     productIconKey: "",
     contentRepo: "mihyr/modular-reconfigurable-robots",
-    contentRepoFolder: "",
+    contentRepoFolder: "modularbots",
     externalLinks: [
       {
         title: "Homepage",
