@@ -1,6 +1,7 @@
-# My Portfolio: mihr.io
+# My Portfolio: [mihr.io](https://mihr.io)
 
-- Main pages are created using bootstrap, code is available in `bootstrap` folder.
+- This repo contains code and content of my portfolio website [mihr.io](https://mihr.io).
+- Main pages are created using bootstrap framework, code is available in `bootstrap` folder.
 - All project documentation pages were generated using [my-docs-engine](https://github.com/mihyr/my-docs-engine).
 
     - [my-docs-engine](https://github.com/mihyr/my-docs-engine) is my forked version of [cloudflare-docs-engine](https://github.com/cloudflare/cloudflare-docs-engine) with minor modifications.
