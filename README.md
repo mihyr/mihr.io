@@ -2,9 +2,9 @@
 
 - This repo contains code and content of my portfolio website [mihr.io](https://mihr.io).
 - Main pages are created using bootstrap framework, code is available in `bootstrap` folder.
-- All project documentation pages were generated using [my-docs-engine](https://github.com/mihyr/my-docs-engine).
+- All project documentation pages were generated using [mihr.io-docs-engine](https://github.com/mihyr/mihr.io-docs-engine).
 
-    - [my-docs-engine](https://github.com/mihyr/my-docs-engine) is my forked version of [cloudflare-docs-engine](https://github.com/cloudflare/cloudflare-docs-engine) with minor modifications.
+    - [mihr.io-docs-engine](https://github.com/mihyr/mihr.io-docs-engine) is my forked version of [cloudflare-docs-engine](https://github.com/cloudflare/cloudflare-docs-engine) with minor modifications.
     - my-docs-engine uses simple markdown files, hosted in `projects` folder to generate static html pages. 
     - I used [cloudflare workers](https://developers.cloudflare.com/workers/) to host the website.
     - The entire process is automated using [wrangler CLI tool](https://github.com/cloudflare/wrangler) and [github actions](https://docs.github.com/en/actions).

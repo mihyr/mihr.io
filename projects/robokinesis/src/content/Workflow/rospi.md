@@ -60,4 +60,6 @@ sudo ./src/catkin/bin/catkin_make_isolated --install -DCMAKE_BUILD_TYPE=Release 
 
 - To install any other ROS distro, change `noetic` to preferred distro name.
 
+Additional Resources:
+https://askubuntu.com/questions/1249708/connect-raspberry-pi-4-with-ubuntu-server-to-wifi
 > Author: [Mihir Patel](https://github.com/mihyr)

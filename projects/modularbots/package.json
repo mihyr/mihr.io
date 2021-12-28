@@ -4,7 +4,7 @@
       "algoliasearch": "^4.11.0",
       "bootstrap": "^5.1.3",
       "build": "^0.1.4",
-      "cloudflare-docs-engine": "git+https://github.com/mihyr/my-docs-engine.git",
+      "cloudflare-docs-engine": "git+https://github.com/mihyr/mihr.io-docs-engine.git",
       "npm": "^8.1.3",
       "run": "^1.4.0"
   },
