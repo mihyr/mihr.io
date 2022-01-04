@@ -1,3 +1,5 @@
+// My snippet, hosted on https://codepen.io/whomihirpatel/pen/RwVYyNG
+
 setInterval(calcPaths, 9500);
 
 function calcPaths(totalDur) {

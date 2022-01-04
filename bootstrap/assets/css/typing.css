@@ -23,11 +23,11 @@
   right: -2px;
   transform: translateY(-50%);
   width: 2px;
-  background-color: rgb(255,255,255);
+  background-color: rgb(166,166,166);
   font-size: 1px;
   z-index: 1;
-  -webkit-animation: flash 0.5s none infinite alternate;
-  animation: flash 0.5s none infinite alternate;
+  -webkit-animation: flash 0.8s none infinite alternate;
+  animation: flash 0.8s none infinite alternate;
 }
 
 @keyframes flash {

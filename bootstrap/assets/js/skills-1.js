@@ -1,54 +1,37 @@
 // Taken from https://codepen.io/lopis/pen/ELxnA
-var skills = [
-  {"header" : "Languages",
+var skills1 = [
+  {"header" : "ML / AI",
     "captions" : [
-      "HTML/CSS",
-      "JS",
-      "Python",
-      "C++",
-      "Bash/zsh"
+      "Search/Planning",
+      "Scikit",
+      "Pytorch",
+      "RL Q-learning",
+      "Filters"
     ],
     "values" : [
-      0.75,
       0.60,
-      0.90,
+      0.60,
       0.70,
+       0.80,
       0.85
     ]
   },
-  {"header" : "Tools",
+  {"header" : "Software",
     "captions" : [
-      "Arch/Ubuntu",
-      "Cmake",
-      "Git",
-      "Docker",
-      "Unit Test"
+      "3D Printing",
+      "Gazebo",
+      "Solidworks",
+      "Altium Designer",
+      "Keyshot"
     ],
     "values" : [
-      0.85,
+      0.80,
       0.60,
       0.90,
-      0.75,
+      0.70,
       0.70
     ]
-  },
-  {"header" : "Robotics",
-    "captions" : [
-      "Gazebo/Webots",
-      "SLAM",
-      "ROS",
-      "ROS2",
-      "Moveit"
-    ],
-    "values" : [
-      0.70,
-      0.70,
-      0.90,
-      0.70,
-      0.60
-    ]
   }
-    
 ];
 
 
@@ -68,12 +51,12 @@ function getXY(i, radius) {
 var hue = [];
 var hueOffset = 25;
 
-for (var s in skills) {
-  $(".skills").append('<div class="pentagon" id="interests"><div class="header"></div><canvas class="pentCanvas"/></div>');
-  hue[s] = (hueOffset + s * 255/skills.length) % 255;
+for (var s in skills1) {
+  $(".skills1").append('<div class="pentagon1" id="interests"><div class="header"></div><canvas class="pentCanvas"/></div>');
+  hue[s] = (hueOffset + s * 255/skills1.length) % 255;
 }
 
-$(".pentagon").each(function(index){
+$(".pentagon1").each(function(index){
   width = $(this).width();
   height = $(this).height();
   var ctx = $(this).find('canvas')[0].getContext('2d');
@@ -85,7 +68,7 @@ $(".pentagon").each(function(index){
   /*** LABEL ***/
   color = "rgba(255, 255, 255, 0.75)";
   ctx.fillStyle = color;
-  ctx.fillText(skills[pentagonIndex].header, width/2, 15);
+  ctx.fillText(skills1[pentagonIndex].header, width/2, 15);
 
   ctx.font="16px Monospace";   
 
@@ -96,7 +79,6 @@ $(".pentagon").each(function(index){
     xy = getXY(i, 0.3);
     colorJitter = 25 + theta*i*2;
     color = "rgba(1, 1, 1, 0.6)";
-     
     font_color =  "rgba(1, 1, 1, 0.8)";
     ctx.fillStyle = color;
     ctx.strokeStyle = color;
@@ -106,7 +88,7 @@ $(".pentagon").each(function(index){
     ctx.lineTo(xy.x, xy.y);
     xy = getXY(i, 0.37);
     console.log();
-    ctx.fillText(skills[ pentagonIndex].captions[valueIndex],xy.x+5, xy.y +5);
+    ctx.fillText(skills1[ pentagonIndex].captions[valueIndex],xy.x+5, xy.y +5);
     valueIndex++;
     ctx.closePath();
     ctx.fill();
@@ -116,12 +98,10 @@ $(".pentagon").each(function(index){
   valueIndex = 0;
   ctx.beginPath();
   ctx.fillStyle = "rgba(255, 255, 255, 0.5)";
-  // ctx.fillStyle = "rgba(157, 27, 178, 0.1)";
     //(165, 40, 176, 0.5)
-    // color = "#9d1bb2";
   ctx.strokeStyle = "rgba(29, 120, 186, 0.3)";
   ctx.lineWidth = 5;
-  var value = skills[pentagonIndex].values[valueIndex];
+  var value = skills1[pentagonIndex].values[valueIndex];
   xy = getXY(i, value * 0.3);
   ctx.moveTo(xy.x,xy.y);
   /*** SKILL GRAPH ***/
@@ -129,7 +109,7 @@ $(".pentagon").each(function(index){
     xy = getXY(i, value * 0.3);
     ctx.lineTo(xy.x,xy.y);
     valueIndex++;
-    value = skills[pentagonIndex].values[valueIndex];
+    value = skills1[pentagonIndex].values[valueIndex];
   }
   ctx.closePath();
   ctx.stroke();

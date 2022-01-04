@@ -1,12 +1,19 @@
 body {
   /*background-color: #d4d9ed;*/
   background: linear-gradient(135deg, #00C4FF, #9D1BB2);
+  /*background: linear-gradient(135deg, #001015, #0c000e);*/
+  /*background-image: linear-gradient(135deg, #00C4FF, #9D1BB2);*/
   background-attachment: fixed;
   /*height: 100vh;*/
   font-family: "Roboto", sans-serif;
   /*overflow: auto;*/
   /*text-align: center;*/
   /*overflow-x: hidden;*/
+}
+
+html, body {
+  height: 100%;
+  min-height: 100%;
 }
 
 .rows {
@@ -20,5 +27,16 @@ body {
 sub-row {
   /*width: 100px;*/
   margin: 10px;
+}
+
+.about-credits {
+  position: fixed;
+  display: table-row;
+  text-align: center;
+  /*margin-top: -80px;*/
+  bottom: 45px;
+  /*width: 100%;*/
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 

@@ -3,26 +3,47 @@
 
 <head>
     <meta charset="utf-8">
+<meta prefix="og: http://ogp.me/ns#" property="og:title" content="Mihir's portfolio" />
+<meta prefix="og: http://ogp.me/ns#" property="og:type" content="website" />
+<meta prefix="og: http://ogp.me/ns#" property="og:url" content="https://mihr.io/" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Mihir's Portfolio</title>
+    <meta name="twitter:image" content="http://mihr.io/assets/img/me-lq.jpg">
+    <meta name="" content="">
+    <meta name="twitter:title" content="Mihir's Portfolio">
+    <meta name="twitter:card" content="summary">
+    <meta name="description" content="Robotics Engineer">
+    <meta name="twitter:description" content="Robotics Engineer">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mihir's Portfolio">
+    <meta property="og:description" content="Robotics Engineer">
+    <meta property="og:url" content="https://mihr.io/">
+    <meta property="og:image" content="http://mihr.io/assets/img/me-linkedin.png">
+    <link rel="icon" type="image/svg+xml" sizes="210x150" href="assets/img/my-sign.svg">
+    <link rel="icon" type="image/svg+xml" sizes="210x150" href="assets/img/my-sign.svg">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/aboutme.css">
     <link rel="stylesheet" href="assets/css/body.css">
-    <link rel="stylesheet" href="assets/css/cert_cards.css">
+    <link rel="stylesheet" href="assets/css/certifications.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="assets/css/Loading-Page-Animation-Style.css">
-    <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
-    <link rel="stylesheet" href="assets/css/project_card.css">
+    <link rel="stylesheet" href="assets/css/navigation.css">
+    <link rel="stylesheet" href="assets/css/projects.css">
+    <link rel="stylesheet" href="assets/css/robots-grid.css">
     <link rel="stylesheet" href="assets/css/sign.css">
+    <link rel="stylesheet" href="assets/css/skills-1.css">
     <link rel="stylesheet" href="assets/css/skills.css">
     <link rel="stylesheet" href="assets/css/title.css">
     <link rel="stylesheet" href="assets/css/typing.css">
 </head>
 
-<body><!-- partial:index.partial.html -->
+<body>
+    <section id="Title" class="table1"><!-- partial:index.partial.html -->
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 <div class="table1">
   <div class="table-cell1">
@@ -33,14 +54,15 @@
           Hey! <br>I'm <span>Mihir Patel</span> <span class="info">Roboticist</span>
         </h1>
         <div class="box1">
-          <a class="box-item1" href="https://www.linkedin.com/in/mspatel1298" target="_blank"><i class="fa fa-linkedin"></i></a><a class="box-item1" href="https://github.com/whomihirpatel" target="_blank"><i class="fa fa-github"></i></a><a class="box-item1" href="https://twitter.com/whomihirpatel" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a class="box-item1" href="https://www.linkedin.com/in/mspatel1298" target="_blank"><i class="fa fa-linkedin"></i></a><a class="box-item1" href="https://github.com/mihyr" target="_blank"><i class="fa fa-github"></i></a><a class="box-item1" href="https://twitter.com/whomihirpatel" target="_blank"><i class="fa fa-twitter"></i></a>
         </div>
       </div>
     </div>
   </div>
 </div>
 <!-- partial -->
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script><div class= "sign_msp">
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script></section>
+    <section id="Sign"><div class= "sign_msp">
 <svg class="autograph" height="300" viewBox="0 0 400.9 300" width="400" xmlns="http://www.w3.org/2000/svg">
   <g fill="none" fill-rule="evenodd" stroke="rgb(0,0,0,0.7)" stroke-linecap="round" stroke-linejoin="round" stroke-width=3
     transform="translate(2 2)">
@@ -54,7 +76,8 @@
       </g>
 </svg>
 </div>
-<div class="typing">
+</section>
+    <section id="projects"><div class="typing">
 <div class="type-js headline">
   <h1 class="text-js">My Recent Projects</h1>
 </div>
@@ -62,46 +85,59 @@
 
 <section class="hero-section">
   <div class="card-grid">
-    <a class="card" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">
-      <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557177324-56c542165309?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80)"></div>
+<!--    <p class="card__title">Title </p> -->
+   <p class="card__details"> Details </p>
+   
+   <a class="card" onmouseover="bgChange(1)" onmouseout="bgChange(0)"  href="http://pegasus.mihr.io/" target="_blank" rel="noopener noreferrer">
+      <div class="card__background" style="background-image: url(assets/img/drone.png)"></div>
+      <div class="card__content">
+        <p class="card__category">Aerial Robotics</p>
+        <h3 class="card__heading">Pegasus</h3>
+      </div>
+      
+    </a>
+    <!--<a class="card" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">-->
+     <a class="card" onmouseover="bgChange(2)" onmouseout="bgChange(0)" href="http://netbots.mihr.io/" target="_blank" rel="noopener noreferrer">
+      <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1606908487894-c7e94a213233?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=652&q=80)"></div>
       <div class="card__content">
         <p class="card__category">Networked Robotics</p>
         <h3 class="card__heading">Netbots</h3>
       </div>
     </a>
-    <a class="card" href="#">
-      <div class="card__background" style="background-image: url(https://media.giphy.com/media/UevalSWg5twQeqpc8Q/giphy.gif)"></div>
+    <a class="card" onmouseover="bgChange(3)" onmouseout="bgChange(0)"  href="https://robokinesis.mihr.io/" target="_blank" rel="noopener noreferrer">
+      <div class="card__background" style="background-image: url(assets/img/robokinesis-no-cover.jpg)"></div>
+      <div class="card__content">
+        <p class="card__category">Wearables</p>
+        <h3 class="card__heading">Robokinesis</h3>
+      </div>
+    </a>
+    <a class="card" onmouseover="bgChange(4)" onmouseout="bgChange(0)" href="http://modularbots.mihr.io/" target="_blank" rel="noopener noreferrer">
+      <div class="card__background" style="background-image: url(assets/img/mrr.jpg)"></div>
       <div class="card__content">
         <p class="card__category">Modular Robotics</p>
         <h3 class="card__heading">Reconfigurable Modular Mobile-Robots</h3>
       </div>
     </a>
-    <a class="card" href="#">
-      <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1556680262-9990363a3e6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
-      <div class="card__content">
-        <p class="card__category">Manipulators</p>
-        <h3 class="card__heading">Baxter Mimicking Human Actions</h3>
-      </div>
-    </li>
-    <a class="card" href="#">
+
+    <!--<a class="card" href="#">
       <div class="card__background" style="background-image: url(https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60)"></div>
       <div class="card__content">
         <p class="card__category">Motion Capture</p>
         <h3 class="card__heading">Non-invasive musculoskeletal analysis using mocap</h3>
-      </div>
-    </a>
-  <div>
-</section><div class="typing">
+      </div>-->
+  </div>
+</section></section>
+    <section id="skills"><div class="typing">
 <div class="type-js1 headline">
   <h1 class="text-js">Skills</h1>
 </div>
-</div><div class="skills"></div><div class="skills1"></div><div class="typing">
+</div><div class="skills"></div><div class="skills1"></div></section>
+    <section id="certifications"><div class="typing">
 <div class="type-js2 headline">
   <h1 class="text-js">Certifications</h1>
 </div>
-</div>
-    <section id="Certifications-here"><div class="containerx"><figure class="snip1563">
-  <img src="assets/img/cswe.jpg" alt="sample110" />
+</div><div class="containerx"><figure class="snip1563">
+  <img src="assets/img/certifications/cswe.jpg" alt="sample110" />
   <figcaption>
     <h3>Certified Solidworks Expert</h3>
     <p>Certification ID - CK23BZHMT6</p>
@@ -115,22 +151,31 @@
   </figcaption>
   <a href="#"></a>
 </figure> -->
-<figure class="snip1563"><img src="assets/img/Coursera%20F78EXD7YV2T6_edit.jpg" alt="sample59" />
+<figure class="snip1563"><img src="assets/img/certifications/Coursera-F78EXD7YV2T6_edit.jpg" alt="sample59" />
   <figcaption>
     <h3>Self-Driving Cars</h3>
     <p>Coursera Specialization</p>
      
   </figcaption>
   <a type="button" data-bs-toggle="modal" data-bs-target="#modal-self-driving"></a>
-</figure></div></section>
+</figure></div>
+        <section id="Certifications-here"></section>
+    </section>
+    <section id="credit"><div class="credits" style="text-align:center; margin-top:-80px">
+    <span>©️</span>
+    <span class="current-year">(year)</span> Made with 
+    <i style="color: #e01fff" class="fa fa-heart heart" alt="love"></i> 
+    using bootstrap | 
+    <a href="https://github.com/mihyr/mihr.io " target="_blank " style="color:#00C4FF;">Code here </a>
+</div></section>
     <nav class="navbar navbar-light navbar-expand-sm fixed-bottom border-dark bounce animated navigation-clean">
-        <div class="container-fluid"><a class="navbar-brand" href="#" style="padding-top: 0px;padding-bottom: 0px;">About me</a>
-            <div class="social"><a class="navbar-brand" href="https://www.linkedin.com/in/mspatel1298" style="padding-top: 0px;padding-bottom: 0px;margin: 14px;"><i class="fa fa-linkedin fa-lg" style="margin: 10px;" href="https://www.linkedin.com/in/mspatel1298"></i></a><a class="navbar-brand" href="https://github.com/whomihirpatel" style="padding-top: 0px;padding-bottom: 0px;margin: 14px;"><i class="fa fa-github fa-lg" style="margin: 10px;" href="https://github.com/whomihirpatel"></i></a><a class="navbar-brand" href="https://twitter.com/whomihirpatel" style="padding-top: 0px;padding-bottom: 0px;margin: 14px;"><i class="fab fa-twitter fa-lg" style="margin: 10px;"></i></a><a class="navbar-brand" href="mailto:mihirkumarpatel2021@u.northwestern.edu" style="padding-top: 0px;padding-bottom: 0px;margin: 14px;"><i class="fa fa-envelope fa-lg" style="margin: 10px;"></i></a></div><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container-fluid"><a class="navbar-brand" href="aboutme.html" style="padding-top: 0px;padding-bottom: 0px;">About me</a>
+            <div class="social"><a class="navbar-brand" href="https://www.linkedin.com/in/mspatel1298" style="padding-top: 0px;padding-bottom: 0px;margin: 14px;"><i class="fa fa-linkedin fa-lg" style="margin: 10px;" href="https://www.linkedin.com/in/mspatel1298"></i></a><a class="navbar-brand" href="https://github.com/mihyr" style="padding-top: 0px;padding-bottom: 0px;margin: 14px;"><i class="fa fa-github fa-lg" style="margin: 10px;" href="https://github.com/whomihirpatel"></i></a><a class="navbar-brand" href="https://twitter.com/whomihirpatel" style="padding-top: 0px;padding-bottom: 0px;margin: 14px;"><i class="fab fa-twitter fa-lg" style="margin: 10px;"></i></a><a class="navbar-brand" href="mailto:mihirkumarpatel2021@u.northwestern.edu" style="padding-top: 0px;padding-bottom: 0px;margin: 14px;"><i class="fa fa-envelope fa-lg" style="margin: 10px;"></i></a></div><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse text-center" id="navcol-1">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="projects.html" style="color: var(--bs-dark);padding-top: 0px;padding-bottom: 0px;font-size: 18px;">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" style="color: var(--bs-dark);padding-top: 0px;padding-bottom: 0px;font-size: 18px;" href="https://mihr.io/#Certifications-here">Certifications</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html" style="color: var(--bs-dark);padding-top: 0px;padding-bottom: 0px;font-size: 18px;">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="https://mihr.io/#projects" style="color: var(--bs-dark);padding-top: 0px;padding-bottom: 0px;font-size: 18px;">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" style="color: var(--bs-dark);padding-top: 0px;padding-bottom: 0px;font-size: 18px;" href="https://mihr.io/#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="robots.html" style="color: var(--bs-dark);padding-top: 0px;padding-bottom: 0px;font-size: 18px;">Robots</a></li>
                 </ul>
             </div>
         </div>
@@ -426,9 +471,10 @@
     </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
-    <script src="assets/js/Card-hover-affect-2.js"></script>
-    <script src="assets/js/Loading-Page-Animation-Style.js"></script>
+    <script src="assets/js/made_with_love.js"></script>
+    <script src="assets/js/project_hover.js"></script>
     <script src="assets/js/sign.js"></script>
+    <script src="assets/js/skills-1.js"></script>
     <script src="assets/js/skills.js"></script>
     <script src="assets/js/typing.js"></script>
 </body>
