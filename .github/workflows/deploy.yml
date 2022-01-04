@@ -86,3 +86,111 @@ jobs:
           USER: root
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
+
+  deploy-particlefilter:
+    runs-on: ubuntu-latest
+    name: Particle Filter
+    defaults:
+      run:
+        shell: bash
+        working-directory: projects/particlefilter
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14.2.0
+      - run: |
+          npm install
+          npm run ghactionsbootstrap --force
+          npm run build
+      
+      - name: Publish Particle filter
+        uses: cloudflare/wrangler-action@1.3.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          workingDirectory: "projects/particlefilter"
+        env:
+          USER: root
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
+
+  deploy-airwus:
+    runs-on: ubuntu-latest
+    name: Airwus
+    defaults:
+      run:
+        shell: bash
+        working-directory: projects/airwus
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14.2.0
+      - run: |
+          npm install
+          npm run ghactionsbootstrap --force
+          npm run build
+      
+      - name: Publish Airwus
+        uses: cloudflare/wrangler-action@1.3.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          workingDirectory: "projects/airwus"
+        env:
+          USER: root
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
+
+  deploy-mrqlearning:
+    runs-on: ubuntu-latest
+    name: Multi Robot Q-Learning
+    defaults:
+      run:
+        shell: bash
+        working-directory: projects/mrqlearning
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14.2.0
+      - run: |
+          npm install
+          npm run ghactionsbootstrap --force
+          npm run build
+      
+      - name: Publish Multi Robot Q-Learning
+        uses: cloudflare/wrangler-action@1.3.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          workingDirectory: "projects/mrqlearning"
+        env:
+          USER: root
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
+
+  deploy-smddrive:
+    runs-on: ubuntu-latest
+    name: Single Motor Differential Drive
+    defaults:
+      run:
+        shell: bash
+        working-directory: projects/smddrive
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 14.2.0
+      - run: |
+          npm install
+          npm run ghactionsbootstrap --force
+          npm run build
+      
+      - name: Publish Single Motor Differential Drive
+        uses: cloudflare/wrangler-action@1.3.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          workingDirectory: "projects/smddrive"
+        env:
+          USER: root
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
