@@ -4,7 +4,7 @@ module.exports = {
     productLogoPathD: "",
     productIconKey: "",
     contentRepo: "mihyr/Single-Motor-DiffDrive",
-    contentRepoFolder: "Single-Motor-DiffDrive",
+    contentRepoFolder: "smddrive",
     externalLinks: [
       {
         title: "Homepage",

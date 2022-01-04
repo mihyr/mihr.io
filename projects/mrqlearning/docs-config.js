@@ -4,7 +4,7 @@ module.exports = {
     productLogoPathD: "",
     productIconKey: "",
     contentRepo: "mihyr/Multi-Robot-QLearning",
-    contentRepoFolder: "Multi-Robot-QLearning",
+    contentRepoFolder: "mrqlearning",
     externalLinks: [
       {
         title: "Homepage",

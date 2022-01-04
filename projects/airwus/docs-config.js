@@ -4,7 +4,7 @@ module.exports = {
     productLogoPathD: "",
     productIconKey: "",
     contentRepo: "mihyr/Airwus",
-    contentRepoFolder: "Airwus",
+    contentRepoFolder: "airwus",
     externalLinks: [
       {
         title: "Homepage",

@@ -4,7 +4,7 @@ module.exports = {
     productLogoPathD: "",
     productIconKey: "",
     contentRepo: "mihyr/particle-filter-localization",
-    contentRepoFolder: "particle-filter-localization",
+    contentRepoFolder: "particlefilter",
     externalLinks: [
       {
         title: "Homepage",
