@@ -1,5 +1,5 @@
 ---
-title: Components
+title: Hardware
 order: 4
 pcx-content-type: best-practices
 ---

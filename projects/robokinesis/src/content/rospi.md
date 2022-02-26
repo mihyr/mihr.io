@@ -1,6 +1,6 @@
 ---
 title: ROS on Pi Zero 
-order: 4
+order: 3
 pcx-content-type: best-practices
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Workflow
-order: 0
+order: 1
 pcx-content-type: best-practices
 ---
 # Workflow

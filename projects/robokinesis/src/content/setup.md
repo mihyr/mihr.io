@@ -1,6 +1,6 @@
 ---
 title: Setup Instructions
-order: 3
+order: 2
 pcx-content-type: best-practices
 ---
 
