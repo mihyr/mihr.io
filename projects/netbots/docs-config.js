@@ -12,7 +12,11 @@ module.exports = {
       },
       {
         title: "Projects",
-        url: "https://projects.mihr.io/"
+        url: "https://mihr.io/#projects"
+      },
+      {
+        title: "Netbots Live Server",
+        url: "https://netbotslive.mihr.io/"
       },
     ],
     search: {
@@ -26,7 +30,7 @@ module.exports = {
       title: "Netbots",
       description: "Documentation for Mihir's Projects",
       author: "@mihyr",
-      url: "http://mihr.io",
+      url: "https://mihr.io/#projects",
       image: "https://github.com/mihyr.png",
     }
   }
