@@ -143,7 +143,7 @@ jobs:
 
   deploy-docs:
     runs-on: ubuntu-latest
-    name: Multi Robot Q-Learning
+    name: mihr.io Docs
     defaults:
       run:
         shell: bash
@@ -158,7 +158,7 @@ jobs:
           npm run ghactionsbootstrap --force
           npm run build
       
-      - name: Publish Multi Robot Q-Learning
+      - name: Publish mihr.io Docs
         uses: cloudflare/wrangler-action@1.3.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
