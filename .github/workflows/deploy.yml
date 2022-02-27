@@ -141,13 +141,13 @@ jobs:
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
           CF_ZONE_ID: ${{ secrets.CF_ZONE_ID }}
 
-  deploy-mrqlearning:
+  deploy-docs:
     runs-on: ubuntu-latest
     name: Multi Robot Q-Learning
     defaults:
       run:
         shell: bash
-        working-directory: projects/mrqlearning
+        working-directory: projects/docs
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -162,7 +162,7 @@ jobs:
         uses: cloudflare/wrangler-action@1.3.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
-          workingDirectory: "projects/mrqlearning"
+          workingDirectory: "projects/docs"
         env:
           USER: root
           CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
