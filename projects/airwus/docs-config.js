@@ -3,7 +3,7 @@ module.exports = {
     pathPrefix: "",
     productLogoPathD: "",
     productIconKey: "",
-    contentRepo: "mihyr/Airwus",
+    contentRepo: "mihyr/mihr.io",
     contentRepoFolder: "airwus",
     externalLinks: [
       {

@@ -8,13 +8,11 @@ pcx-content-type: best-practices
 
 # Autonomous Intra-Row Weed Removal System
 
-In this project I designed a low-cost Autonomous Weed Removal system for selected Indian agricultural fields. I developed a virtual CAD model, adhering to standard industrial DFM guidelines. Drafted a costing, simulation, analysis & design calculation report
+In this project I and [Nishchay Sachdeva](https://www.linkedin.com/in/nishchay-sachdeva/) designed a low-cost Autonomous Weed Removal system for selected Indian agricultural fields. I developed a virtual CAD model, adhering to standard industrial DFM guidelines. Drafted a costing, simulation, analysis & design calculation report
 with a detailed manufacturing Manual.
 
-Participated in Dassault Systemes product design contest and Endedup Top 10 finalist out of 1120 Participants.
+Participated (team of 2) in Dassault Systemes product design contest and Endedup Top 10 finalist out of 1120 Participants.
 Selected for presentation at Solidworks World 2019 Conference, Dallas, TX
-
-![sww](sww.jpg)
 
 ## Problem Statement
 
@@ -36,6 +34,8 @@ The Manufacturing Manual includes BOM, Raw materials, System  tree house & manuf
 The Report contains FEA analysis results, cost break-down of the system in INR, Sustainability report for environmental impact (Calculated using CML impact assessment method. & various design calculations of the system.   
 <Button type="secondary" href="https://github.com/mihyr/mihr.io/raw/master/projects/airwus/src/content/Design_Calculations_Simulation_Costing_Sustainability_Report.pdf">View Report</Button>
 
+### Soldidworks World Conference 2019
 
+![sww](sww.jpg)
 
 > Author: [Mihir Patel](https://github.com/mihyr)

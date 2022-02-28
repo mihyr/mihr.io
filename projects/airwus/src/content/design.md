@@ -4,9 +4,9 @@ order: 1
 pcx-content-type: best-practices
 ---
 
-# Design
+# Renderings
 
-## Some Rendered Images made in Keyshot
+Rendered Images made in Keyshot
 
 ![exploded](4.65.png)
 
