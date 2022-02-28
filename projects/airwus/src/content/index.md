@@ -6,13 +6,13 @@ pcx-content-type: best-practices
 
 # AIRWUS 
 
-# Autonomous Intra-Row Weed Removal System
+## Autonomous Intra-Row Weed Removal System
 
 In this project I and [Nishchay Sachdeva](https://www.linkedin.com/in/nishchay-sachdeva/) designed a low-cost Autonomous Weed Removal system for selected Indian agricultural fields. I developed a virtual CAD model, adhering to standard industrial DFM guidelines. Drafted a costing, simulation, analysis & design calculation report
 with a detailed manufacturing Manual.
 
-Participated (team of 2) in Dassault Systemes product design contest and Endedup Top 10 finalist out of 1120 Participants.
-Selected for presentation at Solidworks World 2019 Conference, Dallas, TX
+Participated (team of 2) in Dassault Systemes product design contest and ended-up Top 10 finalist out of 1120 Participants.
+We were also selected for design presentation at Solidworks World 2019 Conference, Dallas, TX
 
 ## Problem Statement
 
