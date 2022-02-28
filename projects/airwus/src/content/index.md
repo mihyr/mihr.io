@@ -14,7 +14,7 @@ with a detailed manufacturing Manual.
 - Participated (team of 2) in Dassault Systemes product design contest and ended-up Top 10 finalist out of 1120 Participants.
 Further selected for design presentation at Solidworks World 2019 Conference, Dallas, TX
 
-- Work presented at [4th International Conference on Advances in Robotics (AIR), 2019](http://advancesinrobotics.com/2019/) and published in [ACM ICPS](https://dl.acm.org/doi/10.1145/3352593.3352674)
+- Work presented at [4th International Conference on Advances in Robotics (AIR), 2019](http://advancesinrobotics.com/2019/) and published in [ACM ICPS Proceedings](https://dl.acm.org/doi/10.1145/3352593.3352674).
 
 ## Problem Statement
 
