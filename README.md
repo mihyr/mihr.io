@@ -14,4 +14,6 @@
   - Just add new markdown files to `projects` folder and commit to repo.
   - Github actions will automatically create a ubuntu docker instance, use `mihr.io-docs-engine` to generate static html pages, and deploy to cloudflare workers using wrangler cli tool.
 
+    ![workflow](workflow.png)
+
 - My reusable code snippets are available on [codepen/mihyr](https://codepen.io/mihyr/).
