@@ -16,9 +16,5 @@ The engine uses [Gatsby](https://www.gatsbyjs.com/), and includes many [built-in
 
 It’s __open-source__ and [available on GitHub](https://github.com/cloudflare/cloudflare-docs-engine).
 
-<ButtonGroup>
-  <Button type="primary" href="/how-it-works">How it works</Button>
-  <Button type="secondary" href="/faq">FAQ</Button>
-</ButtonGroup
 
 </ContentColumn>
