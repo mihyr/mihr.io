@@ -8,7 +8,9 @@ pcx-content-type: landing-page
 
 <ContentColumn>
 
-Documentation for the engine which powers [Cloudflare’s docs](https://github.com/cloudflare/cloudflare-docs).
+Documentation for the engine which powers _mihr.io-docs-engine_. [mihr.io-docs-engine](https://github.com/mihyr/mihr.io-docs-engine) is my forked version of [cloudflare-docs-engine](https://github.com/cloudflare/cloudflare-docs-engine).
+
+> This documentation is taken from original documentation of cloudflare's Docs engine available on github.
 
 The engine uses [Gatsby](https://www.gatsbyjs.com/), and includes many [built-in MDX components](/reference/markdown).
 
@@ -17,23 +19,6 @@ It’s __open-source__ and [available on GitHub](https://github.com/cloudflare/c
 <ButtonGroup>
   <Button type="primary" href="/how-it-works">How it works</Button>
   <Button type="secondary" href="/faq">FAQ</Button>
-</ButtonGroup>
-
---------------------------------
-
-## Sites built with the engine
-
-<TableWrap>
-
-| Docs site                                                             | GitHub                                                                                                                            |
-|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| [Docs Engine (this site)](https://developers.cloudflare.com/docs-engine/) | [@cloudflare/cloudflare-docs/.../docs-engine](https://github.com/cloudflare/cloudflare-docs/tree/production/products/docs-engine) |
-| [Images](https://developers.cloudflare.com/images)                    | [@cloudflare/cloudflare-docs/.../images](https://github.com/cloudflare/cloudflare-docs/tree/production/products/images)           |
-| [Stream](https://developers.cloudflare.com/stream)                    | [@cloudflare/cloudflare-docs/.../stream](https://github.com/cloudflare/cloudflare-docs/tree/production/products/stream)           |
-| [Terraform](https://developers.cloudflare.com/terraform)              | [@cloudflare/cloudflare-docs/.../terraform](https://github.com/cloudflare/cloudflare-docs/tree/production/products/terraform)     |
-| [Workers](https://developers.cloudflare.com/workers)                  | [@cloudflare/cloudflare-docs/.../workers](https://github.com/cloudflare/cloudflare-docs/tree/production/products/workers)         |
-| [View the full list](https://github.com/cloudflare/cloudflare-docs#products) ...                                                                                                                          |
-
-</TableWrap>
+</ButtonGroup
 
 </ContentColumn>
