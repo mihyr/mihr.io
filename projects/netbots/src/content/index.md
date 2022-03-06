@@ -23,9 +23,6 @@ Please check my live project website [netbotslive.mihr.io](https://netbotslive.m
 
 ![network](https://github.com/mihyr/Networked-Robots/raw/master/network.png)
 
-
-<YouTube id="IPSj043Fr5I"/>
-
 ## Future Work
 
 - I am currently working on improving the global map and using a map database to create a merged map for different GPS grids when enough maps are collected.
