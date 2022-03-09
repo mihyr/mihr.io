@@ -1,4 +1,6 @@
-// Taken from https://codepen.io/ConnorGaunt/pen/OReXZB
+// Modified from https://codepen.io/ConnorGaunt/pen/OReXZB
+// My snippet, hosted on https://codepen.io/mihyr/pen/xxdYWJr
+
 function autoType(elementClass, typingSpeed){
   var thhis = $(elementClass);
   thhis.css({

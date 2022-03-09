@@ -9,7 +9,8 @@
   - I used [cloudflare workers](https://developers.cloudflare.com/workers/) to host the website.
   - The entire process is automated using [wrangler CLI tool](https://github.com/cloudflare/wrangler) and [github actions](https://docs.github.com/en/actions).
   - Github actions workflow is available in `.github/workflows/deploy.yml`
-
+  - Please visit [http://docs.mihr.io/](http://docs.mihr.io/) for more details on how to use this docs engine.
+  
 - Workflow:
   - Just add new markdown files to `projects` folder and commit to repo.
   - Github actions will automatically create a ubuntu docker instance, use `mihr.io-docs-engine` to generate static html pages, and deploy to cloudflare workers using wrangler cli tool.

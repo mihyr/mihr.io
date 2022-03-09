@@ -1,4 +1,6 @@
-// Taken from https://codepen.io/lopis/pen/ELxnA
+// Modified from https://codepen.io/lopis/pen/ELxnA
+// My snippet, hosted on https://codepen.io/mihyr/pen/BaRrWYy
+
 var skills1 = [
   {"header" : "ML / AI",
     "captions" : [
@@ -6,14 +8,14 @@ var skills1 = [
       "Scikit",
       "Pytorch",
       "RL Q-learning",
-      "Filters"
+      "?"
     ],
     "values" : [
-      0.60,
+      0.65,
       0.60,
       0.70,
        0.80,
-      0.85
+      0.60
     ]
   },
   {"header" : "Software",

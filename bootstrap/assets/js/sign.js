@@ -1,4 +1,4 @@
-// My snippet, hosted on https://codepen.io/whomihirpatel/pen/RwVYyNG
+// My snippet, hosted on https://codepen.io/mihyr/pen/RwVYyNG
 
 setInterval(calcPaths, 9500);
 

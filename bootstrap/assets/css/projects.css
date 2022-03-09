@@ -30,10 +30,28 @@ html {
   display: flex;
   /*min-height: 100%;*/
   justify-content: center;
+  /*padding: var(--spacing-xxl) var(--spacing-l);*/
+}
+
+.hero-section1 {
+  align-items: flex-start;
+  /*background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%);*/
+  display: flex;
+  /*min-height: 100%;*/
+  justify-content: center;
   padding: var(--spacing-xxl) var(--spacing-l);
 }
 
 .card-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: var(--spacing-l);
+  grid-row-gap: var(--spacing-l);
+  max-width: var(--width-container);
+  width: 90%;
+}
+
+.card-grid1 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-column-gap: var(--spacing-l);
@@ -48,9 +66,21 @@ html {
   }
 }
 
+@media (min-width: 517px) {
+  .card-grid1 {
+    grid-template-columns: repeat(5, 4fr);
+  }
+}
+
 @media (min-width: 960px) {
   .card-grid {
     grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 960px) {
+  .card-grid1 {
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
@@ -95,7 +125,15 @@ html {
   filter: brightness(0.2) saturate(0.5) contrast(1.2) blur(10px);
 }
 
+.card-grid1:hover > .card:not(:hover) .card__background {
+  filter: brightness(0.2) saturate(0.5) contrast(1.2) blur(10px);
+}
+
 .card-grid:hover > .card:not(:hover) .card__heading {
+  color: #00161c;
+}
+
+.card-grid1:hover > .card:not(:hover) .card__heading {
   color: #00161c;
 }
 
@@ -103,13 +141,28 @@ html {
   color: #d4d9ed;
 }
 
+.card-grid1:hover > .card:hover .card__heading {
+  color: #d4d9ed;
+}
+
 .card-grid:hover > .card:not(:hover) .card__category {
   /*color: #00c4ff;*/
   /*color: #9d1bb2;*/
-  color: #5f5f5f;
+  color: #a9a9a9;
+}
+
+.card-grid1:hover > .card:not(:hover) .card__category {
+  /*color: #00c4ff;*/
+  /*color: #9d1bb2;*/
+  color: #a9a9a9;
 }
 
 .card-grid:hover > .card:hover .card__category {
+  color: #9d1bb2;
+  /*color: #00c4ff;*/
+}
+
+.card-grid1:hover > .card:hover .card__category {
   color: #9d1bb2;
   /*color: #00c4ff;*/
 }
@@ -122,7 +175,7 @@ html {
 }
 
 .card__category {
-  color: var(--background-dark);
+  color: #b9bebf;
   font-size: 0.9rem;
   margin-bottom: var(--spacing-s);
   text-transform: uppercase;

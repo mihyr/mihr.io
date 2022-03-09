@@ -9,16 +9,16 @@ var skills = [
       "Bash/zsh"
     ],
     "values" : [
-      0.75,
-      0.60,
-      0.90,
       0.70,
+      0.50,
+      0.90,
+      0.75,
       0.85
     ]
   },
   {"header" : "Tools",
     "captions" : [
-      "Arch/Ubuntu",
+      "Arch Linux/Ubuntu",
       "Cmake",
       "Git",
       "Docker",
@@ -34,17 +34,17 @@ var skills = [
   },
   {"header" : "Robotics",
     "captions" : [
-      "Gazebo/Webots",
+      "Filters",
       "SLAM",
       "ROS",
-      "ROS2",
+      "ROS2 / DDS ",
       "Moveit"
     ],
     "values" : [
-      0.70,
+      0.80,
       0.70,
       0.90,
-      0.70,
+      0.80,
       0.60
     ]
   }
